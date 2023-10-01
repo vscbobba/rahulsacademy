@@ -31,7 +31,7 @@ stages:
             effectivePomSkip: false
             sonarQubeRunAnalysis: false
      
-- stage: Build docker
+- stage: Build_docker
   displayName: Build image
   jobs:
   - job: Build
